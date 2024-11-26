@@ -23,12 +23,12 @@
                                  const synonyms = definitionData.meanings[0].definitions[0].synonyms.join(', ') || 'No synonyms available';
 
 const wordInfo = `
-📚 *Word*: ${definitionData.word}
-🔍 *Definition*: ${definition}
-📝 *Example*: ${example}
-🔗 *Synonyms*: ${synonyms}
+📚 Word: ${definitionData.word}
+🔍 Definition: ${definition}
+📝 Example: ${example}
+🔗 Synonyms: ${synonyms}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
                                  return reply(wordInfo);
                              } catch (e) {
