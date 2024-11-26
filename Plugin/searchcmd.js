@@ -23,9 +23,9 @@ async (conn, mek, m, { from, args, reply }) => {
             return reply('No videos found for the given query.');
         }
 
-        let response = '*YouTube Search Results:*\n\n';
+        let response = 'YouTube Search Results:\n\n';
         results.videos.slice(0, 20).forEach((video, index) => {
-            response += `${index + 1}. *${video.title}*\n`;
+            response += `${index + 1}. ${video.title}\n`;
             response += `   Channel: ${video.author.name}\n`;
             response += `   Duration: ${video.duration.timestamp}\n`;
             response += `   Views: ${formatNumber(video.views)}\n`;
@@ -46,11 +46,11 @@ async (conn, mek, m, { from, args, reply }) => {
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Youtube Information`,
+              title: `HYPER-MD Youtube Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: `https://pomf2.lain.la/f/gmsubn6.png`,
               sourceUrl: ``,
@@ -94,14 +94,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let repoInfo = `📁_*GitHub Repository Info*_📁\n\n`;
-        repoInfo += `📌 *Name*: ${data.name}\n`;
-        repoInfo += `🔗 *URL*: ${data.html_url}\n`;
-        repoInfo += `📝 *Description*: ${data.description}\n`;
-        repoInfo += `⭐ *Stars*: ${data.stargazers_count}\n`;
-        repoInfo += `🍴 *Forks*: ${data.forks_count}\n`;
+        let repoInfo = `📁_GitHub Repository Info_📁\n\n`;
+        repoInfo += `📌 Name: ${data.name}\n`;
+        repoInfo += `🔗 URL: ${data.html_url}\n`;
+        repoInfo += `📝 Description: ${data.description}\n`;
+        repoInfo += `⭐ Stars: ${data.stargazers_count}\n`;
+        repoInfo += `🍴 Forks: ${data.forks_count}\n`;
         repoInfo += `\n`;
-        repoInfo += `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*\n`;
+        repoInfo += `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ \n`;
 
          // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -113,11 +113,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Github Repository Information`,
+              title: `HYPER-MD Github Repository Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
               sourceUrl: ``,
