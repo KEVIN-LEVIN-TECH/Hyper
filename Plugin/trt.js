@@ -22,13 +22,13 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *Translation* 🌍
+🌍 Translation 🌍
 
-🔤 *Original*: ${textToTranslate}
-🔠 *Translated*: ${translation}
-🌐 *Language*: ${targetLang.toUpperCase()}
+🔤 Original: ${textToTranslate}
+🔠 Translated: ${translation}
+🌐 Language: ${targetLang.toUpperCase()}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
         return reply(translationMessage);
     } catch (e) {
