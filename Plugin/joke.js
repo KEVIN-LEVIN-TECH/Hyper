@@ -15,13 +15,13 @@ async (conn, mek, m, { from, q, reply }) => {
         const joke = response.data;
 
         const jokeMessage = `
-😂 *Here's a random joke for you!* 😂
+😂 Here's a random joke for you! 😂
 
-*${joke.setup}*
+${joke.setup}
 
 ${joke.punchline} 😄
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ* `;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ  `;
 
         return reply(jokeMessage);
     } catch (e) {
