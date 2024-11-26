@@ -32,12 +32,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         }
 
         const convertedAmount = (amount * data.rates[toCurrency]).toFixed(2);
-        let conversionInfo = `💸_*Currency Conversion*_💸\n\n`;
-        conversionInfo += `💵 *Amount*: ${amount} ${fromCurrency}\n`;
-        conversionInfo += `🔄 *Converted Amount*: ${convertedAmount} ${toCurrency}\n`;
-        conversionInfo += `📈 *Exchange Rate*: 1 ${fromCurrency} = ${data.rates[toCurrency]} ${toCurrency}\n
+        let conversionInfo = `💸_Currency Conversion_💸\n\n`;
+        conversionInfo += `💵 Amount: ${amount} ${fromCurrency}\n`;
+        conversionInfo += `🔄 Converted Amount: ${convertedAmount} ${toCurrency}\n`;
+        conversionInfo += `📈 Exchange Rate: 1 ${fromCurrency} = ${data.rates[toCurrency]} ${toCurrency}\n
         
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ 
         `;
 
         await conn.sendMessage(from, { text: conversionInfo }, { quoted: mek });
