@@ -17,7 +17,7 @@ if(!isOwner)return;
                 .then((res) => reply("🟩 Joined Group"))
                 .catch((err) => reply("Error in Joining Group"));
 } catch (e) {
-reply('*Error !!*')
+reply('Error !!')
 l(e)
 }
 })
