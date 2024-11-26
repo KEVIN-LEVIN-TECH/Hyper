@@ -21,7 +21,7 @@ const { File } = require('megajs')
 const prefix = config.PREFIX 
 const path = require('path');
 const asciiArt = ``;
-const ownerNumber = ['94765527900']
+const ownerNumber = ['94784337506']
 
 //--------------------| SAHAS-MD Sesion Output |--------------------//
 
