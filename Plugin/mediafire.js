@@ -25,16 +25,16 @@ if(!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 �
 const mfire = await fetchJson(`${apilink}/download/mfire?url=${q}`);
   
 const msg = `
-           *乂 SAHAS-MD MEDIAFIRE DOWNLOADER* 🔥
+           乂 HYPER-MD MEDIAFIRE DOWNLOADER 🔥
 
 
-• *𝖥𝗂𝗅𝖾 𝖭𝖺𝗆𝖾* - ${mfire.result.fileName}
+• 𝖥𝗂𝗅𝖾 𝖭𝖺𝗆𝖾 - ${mfire.result.fileName}
 
-• *𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾* - ${mfire.result.size}
+• 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 - ${mfire.result.size}
 
-• *𝖴𝗉𝗅𝗈𝖺𝖽 𝖣𝖺𝗍𝖾 𝖠𝗇𝖽 𝖳𝗂𝗆𝖾* - ${mfire.result.date}
+• 𝖴𝗉𝗅𝗈𝖺𝖽 𝖣𝖺𝗍𝖾 𝖠𝗇𝖽 𝖳𝗂𝗆𝖾 - ${mfire.result.date}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
        // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -46,11 +46,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Mediafire Downloader`,
+              title: `HYPER-MD Mediafire Downloader`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: `https://i.ibb.co/dPw1fHD/mfire.jpg`,
               sourceUrl: ``,
