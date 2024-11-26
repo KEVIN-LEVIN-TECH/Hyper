@@ -27,7 +27,7 @@ async (conn, mek, m, { from, quoted, body, q, reply }) => {
         const videoUrl = videoInfo.link_dl;
         await conn.sendMessage(
             from,
-            { video: { url: videoUrl }, caption: '> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*', mimetype: 'video/mp4' }, 
+            { video: { url: videoUrl }, caption: '> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ', mimetype: 'video/mp4' }, 
             { quoted: mek }
         )
 
