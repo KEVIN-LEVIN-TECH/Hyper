@@ -32,7 +32,7 @@
              });
          } else
              citel.reply(
-                 `Reply to the audio you want to change with*`
+                 `Reply to the audio you want to change with`
              );
      }
  )
@@ -67,7 +67,7 @@
              });
          } else
              citel.reply(
-                 `Reply to the audio you want to change with.*`
+                 `Reply to the audio you want to change with.`
              );
      }
  )
@@ -102,7 +102,7 @@
              });
          } else
              citel.reply(
-                 `Reply to the audio you want to change with.*`
+                 `Reply to the audio you want to change with.`
              );
      }
  )
@@ -137,7 +137,7 @@
              });
          } else
              citel.reply(
-                 `Reply to the audio you want to change with.*`
+                 `Reply to the audio you want to change with.`
              );
      }
  )
@@ -172,7 +172,7 @@
              });
          } else
              citel.reply(
-                 `Reply to the audio you want to change with.*`
+                 `Reply to the audio you want to change with.`
              );
      }
  )
