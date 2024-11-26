@@ -174,22 +174,22 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `*乂 SAHAS-MD SONG DOWNLOADER*
+            let desc = `乂 HYPER-MD SONG DOWNLOADER
 
-*⚙️ 𝖳𝗂𝗍𝗅𝖾* : ${data.title}
-*📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇* : ${data.description}
-*🚀 𝖵𝗂𝖾𝗐𝗌* : ${data.views}
-*⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇* : ${data.timestamp}
-*📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇* : ${data.ago}
-*🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅* : ${data.author.name}
-*🖇️ 𝖴𝗋𝗅* : ${data.url}
+⚙️ 𝖳𝗂𝗍𝗅𝖾 : ${data.title}
+📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 : ${data.description}
+🚀 𝖵𝗂𝖾𝗐𝗌 : ${data.views}
+⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
+📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
+🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : ${data.author.name}
+🖇️ 𝖴𝗋𝗅 : ${data.url}
 
-*乂 REPLY THE DOWNLOAD OPTION*  
+乂 REPLY THE DOWNLOAD OPTION  
 
-*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾*
-*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾*
+1 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾
+2 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -200,12 +200,12 @@ cmd(
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                            newsletterName: "HYPER-MD",
                             newsletterJid: "120363296605464049@newsletter",
                         },
                         externalAdReply: {
-                            title: `SAHAS-MD Song Downloader`,
-                            body: `${data.title} : Powerd By SAHAS-MD Song Information Search Engine`,
+                            title: `HYPER-MD Song Downloader`,
+                            body: `${data.title} : Powerd By HYPER-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -256,7 +256,7 @@ cmd(
                                 {
                                     audio: { url: downloadUrl },
                                     mimetype: "audio/mpeg",
-                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+                                    caption: `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                                 },
                                 { quoted: mek },
                             );
@@ -267,8 +267,8 @@ cmd(
                                 {
                                     document: { url: downloadUrl },
                                     mimetype: "audio/mpeg",
-                                    fileName: `ꜱᴀʜᴀꜱ-ᴍᴅ v1.0.0 | ${data.title}.mp3`,
-                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+                                    fileName: `ʜʏᴘᴇʀ-ᴍᴅ v1.0.0 | ${data.title}.mp3`,
+                                    caption: `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                                 },
                                 { quoted: mek },
                             );
@@ -344,22 +344,22 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `*乂 SAHAS-MD VIDEO DOWNLOADER*
+            let desc = `乂 HYPER-MD VIDEO DOWNLOADER
 
-*⚙️ 𝖳𝗂𝗍𝗅𝖾* : ${data.title}
-*📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇* : ${data.description}
-*🚀 𝖵𝗂𝖾𝗐𝗌* : ${data.views}
-*⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇* : ${data.timestamp}
-*📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇* : ${data.ago}
-*🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅* : ${data.author.name}
-*🖇️ 𝖴𝗋𝗅* : ${data.url}
+⚙️ 𝖳𝗂𝗍𝗅𝖾 : ${data.title}
+📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 : ${data.description}
+🚀 𝖵𝗂𝖾𝗐𝗌 : ${data.views}
+⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
+📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
+🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : ${data.author.name}
+🖇️ 𝖴𝗋𝗅 : ${data.url}
 
-*乂 REPLY THE DOWNLOAD OPTION*  
+乂 REPLY THE DOWNLOAD OPTION  
 
-*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾*
-*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾*
+1 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾
+2 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -370,12 +370,12 @@ cmd(
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                            newsletterName: "HYPER-MD",
                             newsletterJid: "120363296605464049@newsletter",
                         },
                         externalAdReply: {
-                            title: `SAHAS-MD Video Downloader`,
-                            body: `${data.title} : Powerd By SAHAS-MD Song Information Search Engine`,
+                            title: `HYPER-MD Video Downloader`,
+                            body: `${data.title} : Powerd By HYPER-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -428,7 +428,7 @@ cmd(
                                     mimetype: "video/mp4",
                                     caption: `𝖸 𝖳  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉  )
  
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                                 },
                                 { quoted: mek },
                             );
@@ -439,8 +439,8 @@ cmd(
                                 {
                                     document: { url: downloadUrl },
                                     mimetype: "video/mp4",
-                                    fileName: `ꜱᴀʜᴀꜱ-ᴍᴅ V1.0.0 | ${data.title}.mp4`,
-                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+                                    fileName: `ʜʏᴘᴇʀ-ᴍᴅ V1.0.0 | ${data.title}.mp4`,
+                                    caption: `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ 
 `,
                                 },
                                 { quoted: mek },
@@ -519,18 +519,18 @@ cmd(
                 if (hd || sd) {
 
                     // Prompt user to select HD or SD
-                    const videoMessage = `*乂 SAHAS-MD FB DOWNLOADER*
+                    const videoMessage = `乂 HYPER-MD FB DOWNLOADER
 
 🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.facebook.com
 
 
-*乂 REPLY THE DOWNLOAD OPTION*
+乂 REPLY THE DOWNLOAD OPTION
 
-1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾.
-2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖲𝖣 𝖳𝗒𝗉𝖾.
+1 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾.
+2 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖲𝖣 𝖳𝗒𝗉𝖾.
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
 
 
@@ -542,12 +542,12 @@ cmd(
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                                    newsletterName: "HYPER-MD",
                                     newsletterJid: "120363296605464049@newsletter",
                                 },
                                     externalAdReply: {
-                                          title: `SAHAS-MD FB Downloader`,
-                                          body: `Undifended : Powerd By SAHAS-MD FB Information Search Engine`,
+                                          title: `HYPER-MD FB Downloader`,
+                                          body: `Undifended : Powerd By HYPER-MD FB Information Search Engine`,
                                           thumbnailUrl: `https://pomf2.lain.la/f/9ggi67rj.jpg`,
                                           sourceUrl:  ``,
                                           mediaType: 1,
@@ -581,7 +581,7 @@ cmd(
                                         video: { url: hd },
                                         caption: `𝖥 𝖡  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉 )
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
 
                                     },
                                     { quoted: mek },
@@ -593,7 +593,7 @@ cmd(
                                         video: { url: sd },
                                         caption: `𝖥 𝖡  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉 )
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                                     },
                                     { quoted: mek },
 
@@ -648,18 +648,18 @@ cmd({
         if (!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗");
 
         // Watermark message
-        let wm = `*乂 SAHAS-MD TIK TOK DOWNLOADER*
+        let wm = `乂 HYPER-MD TIK TOK DOWNLOADER
 
 🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.tiktok.com
 
 
-*乂 REPLY THE DOWNLOAD OPTION*
+乂 REPLY THE DOWNLOAD OPTION
 
-1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
-2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
+1 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
+2 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
         const sentMessage = await conn.sendMessage(
             from,
@@ -669,12 +669,12 @@ cmd({
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                        newsletterName: "HYPER-MD",
                         newsletterJid: "120363296605464049@newsletter",
                     },
                         externalAdReply: {
-                              title: `SAHAS-MD Tik Tok Downloader`,
-                              body: `Undifended : Powerd By SAHAS-MD Tiktok Information Search Engine`,
+                              title: `HYPER-MD Tik Tok Downloader`,
+                              body: `Undifended : Powerd By HYPER-MD Tiktok Information Search Engine`,
                               thumbnailUrl: `https://pomf2.lain.la/f/eo16q3mu.png`,
                               sourceUrl:  ``,
                               mediaType: 1,
@@ -712,7 +712,7 @@ cmd({
                         video: { url: video }, 
                         caption: `𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉  )
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
                     }, { quoted: msg });
                 } else if (userReply === '2') {
@@ -756,7 +756,7 @@ function formatFileSize(bytes) {
 }
 
 // Google Drive Downloader with size limit (e.g., 100MB limit)
-const MAX_DOWNLOAD_SIZE = 500 * 1024 * 1024; // 100 MB
+const MAX_DOWNLOAD_SIZE = 500  1024  1024; // 100 MB
 
 cmd({
     pattern: "gdrive",
@@ -776,23 +776,23 @@ cmd({
                                                   const downloadingMsg = await conn.sendMessage(
                                                       from,
                                                       {
-                                                          text: `*乂 SAHAS-MD GDRIVE DOWNLOADER*
+                                                          text: `乂 HYPER-MD GDRIVE DOWNLOADER
                                                           
 📁 𝖭𝖺𝗆𝖾 : ${fileInfo.fileName}
 📻 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${fileInfo.fileSize}
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.gdrive.com
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                                                           contextInfo: {
                                                               forwardingScore: 999,
                                                               isForwarded: true,
                                                               forwardedNewsletterMessageInfo: {
-                                                                  newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                                                                  newsletterName: "HYPER-MD",
                                                                   newsletterJid: "120363296605464049@newsletter",
                                                               },
                                                               externalAdReply: {
-                                                                  title: `SAHAS-MD Gdrive Downloader`,
-                                                                  body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By SAHAS-MD Gdrive Information Search Engine`,
+                                                                  title: `HYPER-MD Gdrive Downloader`,
+                                                                  body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By HYPER-MD Gdrive Information Search Engine`,
                                                                   thumbnailUrl: `https://pomf2.lain.la/f/41i00kdh.png`,
                                                                   sourceUrl: ``,
                                                                   mediaType: 1,
@@ -816,14 +816,14 @@ cmd({
 
         // Check if file size is available and handle accordingly
         const fileSize = fileInfo.fileSize || 0; // Default to 0 if fileSize is not present
-        const MAX_DOWNLOAD_SIZE = 500 * 1024 * 1024; // 500 MB
+        const MAX_DOWNLOAD_SIZE = 500  1024  1024; // 500 MB
 
         if (fileSize > MAX_DOWNLOAD_SIZE) {
             await conn.sendMessage(from, { text: `⚠️ The file size is too large. Maximum allowed size is 500 MB. The provided file is ${formatFileSize(fileSize)}.` }, { quoted: mek });
             return await conn.sendMessage(from, { react: { text: "⚠️", key: mek.key } });
         }
 
-        const caption = `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+        const caption = `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
         await conn.sendMessage(from, { 
             document: { url: fileInfo.download || fileInfo.link || fileInfo.url }, 
             fileName: fileInfo.fileName || fileInfo.title, 
@@ -888,24 +888,24 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
 
 
 
-                text: `*乂 SAHAS-MD APK DOWNLOADER*
+                text: `乂 HYPER-MD APK DOWNLOADER
 
 📁 𝖭𝖺𝗆𝖾 : ${apkName}
 📻 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${apkSize} MB
 📆 𝖫𝖺𝗌𝗍 𝖴𝗉𝖽𝖺𝗍𝖾 : ${apkLastUpdate}
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.playstore.com
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `,
                 contextInfo: {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                        newsletterName: "HYPER-MD",
                         newsletterJid: "120363296605464049@newsletter",
                     },
                     externalAdReply: {
-                        title: `SAHAS-MD Application Downloader`,
-                        body: `${apkName} : Powerd By SAHAS-MD Apk Information Search Engine`,
+                        title: `HYPER-MD Application Downloader`,
+                        body: `${apkName} : Powerd By HYPER-MD Apk Information Search Engine`,
                         thumbnailUrl: apkData.icon,
                         sourceUrl: ``,
                         mediaType: 1,
@@ -943,8 +943,8 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
             document: { url: filePath },
             mimetype: 'application/vnd.android.package-archive',
             fileName: `${apkName}.apk`,
-            caption: `ꜱᴀʜᴀꜱ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛`,
-            footer: 'ꜱᴀʜᴀꜱ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛'
+            caption: `ʜʏᴘᴇʀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛`,
+            footer: 'ʜʏᴘᴇʀ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛'
         }, { quoted: mek });
 
         fs.unlinkSync(filePath);
@@ -970,10 +970,10 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖳𝗐𝗂𝗍𝗍𝖾𝗋 𝖴𝗋𝗅")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/twitterdl?url=${q}`)
-        reply("*𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝗂𝗇𝗀...*")
+        reply("𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝗂𝗇𝗀...")
         //send video (hd,sd)
-        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD \n\n > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*` }, { quoted: mek })
-        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*` }, { quoted: mek })  
+        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD \n\n > ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ` }, { quoted: mek })
+        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n > ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ` }, { quoted: mek })  
         //send audio    
         await conn.sendMessage(from, { audio: { url: data.data.data.audio }, mimetype: "audio/mpeg" }, { quoted: mek })  
     } catch (e) {
