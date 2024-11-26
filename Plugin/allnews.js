@@ -23,7 +23,7 @@ try{
 const news = await fetchJson(`${apilink}/hiru`)
   
 const msg = `
-           ⭐ *SAHAS-MD HIRU NEWS* ⭐
+           ⭐ *HYPER-MD HIRU NEWS* ⭐
 
        
 • *Title* - ${news.result.title}
@@ -32,7 +32,7 @@ const msg = `
 
 • *Link* - ${news.result.url}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
           // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -44,11 +44,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD News Information`,
+              title: `HYPER-MD News Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: news.result.image,
               sourceUrl: ``,
@@ -80,7 +80,7 @@ try{
 const news = await fetchJson(`${apilink}/sirasa`)
   
 const msg = `
-           🔺 *SAHAS-MD SIRASA NEWS* 🔺
+           🔺 *HYPER-MD SIRASA NEWS* 🔺
 
        
 • *Title* - ${news.result.title}
@@ -89,7 +89,7 @@ const msg = `
 
 • *Link* - ${news.result.url}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
           // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -101,11 +101,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD News Information`,
+              title: `HYPER-MD News Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: news.result.image,
               sourceUrl: ``,
@@ -137,7 +137,7 @@ try{
 const news = await fetchJson(`${apilink}/derana`)
   
 const msg = `
-           📑 *SAHAS-MD DERANA NEWS* 📑
+           📑 *HYPER-MD DERANA NEWS* 📑
 
        
 • *Title* - ${news.result.title}
@@ -148,7 +148,7 @@ const msg = `
 
 • *Link* - ${news.result.url}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
           // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -160,11 +160,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD News Information`,
+              title: `HYPER-MD News Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: news.result.image,
               sourceUrl: ``,
@@ -196,7 +196,7 @@ try{
 const news = await fetchJson(`${apilink}/lankadeepa`)
   
 const msg = `
-           🕵️‍♂️ *SAHAS-MD LANKADEEPA NEWS* 🕵️‍♂️
+           🕵️‍♂️ *HYPER-MD LANKADEEPA NEWS* 🕵️‍♂️
 
        
 • *Title* - ${news.result.title}
@@ -207,7 +207,7 @@ const msg = `
 
 • *Link* - ${news.result.url}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
 
           // Sending the image with caption
@@ -220,11 +220,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD News Information`,
+              title: `HYPER-MD News Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: news.result.image,
               sourceUrl: ``,
@@ -256,7 +256,7 @@ try{
 const news = await fetchJson(`${apilink}/bbc`)
   
 const msg = `
-           ⛩ *SAHAS-MD BBC NEWS* ⛩
+           ⛩ *HYPER-MD BBC NEWS* ⛩
 
        
 • *Title* - ${news.result.title}
@@ -265,7 +265,7 @@ const msg = `
 
 • *Link* - ${news.result.url} 
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
 
           // Sending the image with caption
@@ -278,11 +278,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD News Information`,
+              title: `HYPER-MD News Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: news.result.image,
               sourceUrl: ``,
