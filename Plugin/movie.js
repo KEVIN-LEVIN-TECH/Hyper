@@ -25,23 +25,23 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         }
 
         const movieInfo = `
-🎬 *Movie Information* 🎬
+🎬 Movie Information 🎬
 
-🎥 *Title:* ${data.Title}
-📅 *Year:* ${data.Year}
-🌟 *Rated:* ${data.Rated}
-📆 *Released:* ${data.Released}
-⏳ *Runtime:* ${data.Runtime}
-🎭 *Genre:* ${data.Genre}
-🎬 *Director:* ${data.Director}
-✍️ *Writer:* ${data.Writer}
-🎭 *Actors:* ${data.Actors}
-📝 *Plot:* ${data.Plot}
-🌍 *Language:* ${data.Language}
-🇺🇸 *Country:* ${data.Country}
-🏆 *Awards:* ${data.Awards}
-⭐ *IMDB Rating:* ${data.imdbRating}
-🗳️ *IMDB Votes:* ${data.imdbVotes}
+🎥 Title: ${data.Title}
+📅 Year: ${data.Year}
+🌟 Rated: ${data.Rated}
+📆 Released: ${data.Released}
+⏳ Runtime: ${data.Runtime}
+🎭 Genre: ${data.Genre}
+🎬 Director: ${data.Director}
+✍️ Writer: ${data.Writer}
+🎭 Actors: ${data.Actors}
+📝 Plot: ${data.Plot}
+🌍 Language: ${data.Language}
+🇺🇸 Country: ${data.Country}
+🏆 Awards: ${data.Awards}
+⭐ IMDB Rating: ${data.imdbRating}
+🗳️ IMDB Votes: ${data.imdbVotes}
 `;
 
         // Define the image URL
@@ -50,7 +50,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+            caption: `${movieInfo}\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
