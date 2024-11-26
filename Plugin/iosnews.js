@@ -19,12 +19,12 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const data = (await iosNews()).result[0]
-let info = `*📃 Title :* ${data.title}
-*🕒 Time:* ${data.time} 
-*⛓️ Link:* ${data.link}
-*📚 Description:* ${data.desc}
+let info = `📃 Title : ${data.title}
+🕒 Time: ${data.time} 
+⛓️ Link: ${data.link}
+📚 Description: ${data.desc}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 return await conn.sendMessage(from, { image: { url: data.img} , caption: info } , { quoted: mek })
 } catch (e) {
 l(e)
