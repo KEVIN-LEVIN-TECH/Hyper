@@ -17,7 +17,7 @@ async (Void, citel) => {
     }
 
     let insult = data.insult;
-    return citel.reply(`*Insult:* ${insult}`);
+    return citel.reply(`Insult: ${insult}`);
   } catch (error) {
     citel.reply(`Error: ${error.message || error}`);
   }
