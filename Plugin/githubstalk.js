@@ -20,18 +20,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let userInfo = `     🔍_*SAHAS-MD GIT STALK*_🔎
+        let userInfo = `     🔍_HYPER-MD GIT STALK_🔎
         
-👤 *Username*: ${data.name || data.login}
-🔗 *Github Url*:(${data.html_url})
-📝 *Bio*: ${data.bio || 'Not available'}
-🏙️ *Location*: ${data.location || 'Unknown'}
-📊 *Public Repos*: ${data.public_repos}
-👥 *Followers*: ${data.followers} | Following: ${data.following}
-📅 *Created At*: ${new Date(data.created_at).toDateString()}
-🔭 *Public Gists*: ${data.public_gists}
+👤 Username: ${data.name || data.login}
+🔗 Github Url:(${data.html_url})
+📝 Bio: ${data.bio || 'Not available'}
+🏙️ Location: ${data.location || 'Unknown'}
+📊 Public Repos: ${data.public_repos}
+👥 Followers: ${data.followers} | Following: ${data.following}
+📅 Created At: ${new Date(data.created_at).toDateString()}
+🔭 Public Gists: ${data.public_gists}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ 
 `;
 
          // Sending the image with caption
@@ -44,11 +44,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: 'HYPER-MD',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Github Information`,
+              title: `HYPER-MD Github Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: data.avatar_url,
               sourceUrl: ``,
