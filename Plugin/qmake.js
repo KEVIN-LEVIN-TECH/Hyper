@@ -10,7 +10,7 @@ cmd({
   filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-if (!body) throw `*Give a text to convert*` // Access text using body
+if (!body) throw `Give a text to convert` // Access text using body
 try {
   conn.sendFile(
     m.chat,
