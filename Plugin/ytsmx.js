@@ -67,13 +67,13 @@ async (conn, mek, m, { from, q, reply }) => {
 
             // Construct the message with movie details
             const movie = result.result;
-            const detailsMessage = `*𝖬𝗈𝗏𝗂𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌:*\n\n` +
+            const detailsMessage = `𝖬𝗈𝗏𝗂𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌:\n\n` +
                 `𝖳𝗂𝗍𝗅𝖾: ${movie.title}\n` +
                 `𝖸𝖾𝖺𝗋: ${movie.year}\n` +
                 `𝖱𝖺𝗍𝗂𝗇𝗀: ${movie.rating}\n` +
                 `𝖲𝗎𝗆𝗆𝖺𝗋𝗒: ${movie.summary}\n` +
                 `𝖫𝗂𝗇𝗄: ${movie.url}\n\n` + 
-                `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+                `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `;
 
             await conn.sendMessage(from, { text: detailsMessage }, { quoted: mek });
 
