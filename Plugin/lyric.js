@@ -4,14 +4,14 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 const { lyrics, lyricsv2 } = require('@bochilteam/scraper');
 
 var tmsg =''
-if(config.LANG === 'SI') tmsg = '*කරුණාකර මට ගීතයක නමක් දෙන්න. !*'
-else tmsg = "*Please give me a song name. !*"
+if(config.LANG === 'SI') tmsg = 'කරුණාකර මට ගීතයක නමක් දෙන්න. !'
+else tmsg = "Please give me a song name. !"
 var descg = ''
 if(config.LANG === 'SI') descg = "එය ලබා දී ඇති සංගීතයේ lyrics දෙයි."
 else descg = "It gives lyrics of given song name."
 var cantscg = ''
-if(config.LANG === 'SI') cantscg = "*මට මේ ගීතයේ lyrics සොයාගත නොහැක !*"
-else cantscg = "*I cant find lyrics of this song !*"
+if(config.LANG === 'SI') cantscg = "මට මේ ගීතයේ lyrics සොයාගත නොහැක !"
+else cantscg = "I cant find lyrics of this song !"
 
 cmd({
     pattern: "lyric",
@@ -27,11 +27,11 @@ try{
 if(!q) return reply(tmsg)
 const result = await fetchJson(`https://some-random-api.com/lyrics?title=${text}`)
 if(result.lyrics) reply(`
-*[🧚 SAHAS - ＭＤ 🧚]*
+[ HYPER - ＭＤ ]
 
-   *LYRICS SEARCH*
+   LYRICS SEARCH
    
-*${result.title}*
+${result.title}
 _${result.artist}_
 
 
@@ -39,7 +39,7 @@ ${result.lyrics}
 
 └───────────◉
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`)
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `)
 else reply(cantscg)
 } catch (e) {
 reply(cantscg)
