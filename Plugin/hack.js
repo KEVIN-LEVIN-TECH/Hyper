@@ -10,10 +10,10 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const steps = [
-            '💻 *HACK STARTING...* 💻',
+            '💻 HACK STARTING... 💻',
             '',
-            '*Initializing hacking tools...* 🛠️',
-            '*Connecting to remote servers...* 🌐',
+            'Initializing hacking tools... 🛠️',
+            'Connecting to remote servers... 🌐',
             '',
             '```[██████████] 10%``` ⏳'                                            ,
             '```[███████████████████] 20%``` ⏳'                                   ,
@@ -26,17 +26,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '```[██████████████████████████████████████████████████] 90%``` ⏳'    ,
             '```[████████████████████████████████████████████████████] 100%``` ✅',
             '',
-            '🔒 *System Breach: Successful!* 🔓',
-            '🚀 *Command Execution: Complete!* 🎯',
+            '🔒 System Breach: Successful! 🔓',
+            '🚀 Command Execution: Complete! 🎯',
             '',
-            '*📡 Transmitting data...* 📤',
+            '📡 Transmitting data... 📤',
             '_🕵️‍♂️ Ensuring stealth..._ 🤫',
-            '*🔧 Finalizing operations...* 🏁',
+            '🔧 Finalizing operations... 🏁',
             '',
-            '⚠️ *Note:* All actions are for demonstration purposes only.',
-            '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
+            '⚠️ Note: All actions are for demonstration purposes only.',
+            '⚠️ Reminder: Ethical hacking is the only way to ensure security.',
             '',
-            '> *SAHAS-MD-HACKING-COMPLETE ☣*'
+            '> HYPER-MD-HACKING-COMPLETE ☣'
         ];
 
         for (const line of steps) {
@@ -45,6 +45,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         }
     } catch (e) {
         console.log(e);
-        reply(`❌ *Error!* ${e.message}`);
+        reply(`❌ Error! ${e.message}`);
     }
 });
