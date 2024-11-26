@@ -18,28 +18,28 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const data = await fetchJson('https://api.maher-zubair.tech/details/wabetainfo')
-let info = `*🥏 Title :* ${data.result.title}
-*📅 Date :* ${data.result.date}
-*🖥️ Platform :* ${data.result.updateFor}
-*🔗 URL :* ${data.result.link}
-*🗞️ Short Desc :*
+let info = `🥏 Title : ${data.result.title}
+📅 Date : ${data.result.date}
+🖥️ Platform : ${data.result.updateFor}
+🔗 URL : ${data.result.link}
+🗞️ Short Desc :
 ${data.result.desc}
 
-*ℹ️ FAQ*
+ℹ️ FAQ
 
-*❓ Question :* ${data.result.QandA[0].question}
-*👨🏻‍💻 Answer :* ${data.result.QandA[0].answer}
+❓ Question : ${data.result.QandA[0].question}
+👨🏻‍💻 Answer : ${data.result.QandA[0].answer}
 
-*❓ Question :* ${data.result.QandA[1].question}
-*👨🏻‍💻 Answer :* ${data.result.QandA[1].answer}
+❓ Question : ${data.result.QandA[1].question}
+👨🏻‍💻 Answer : ${data.result.QandA[1].answer}
 
-*❓ Question :* ${data.result.QandA[2].question}
-*👨🏻‍💻 Answer :* ${data.result.QandA[2].answer}
+❓ Question : ${data.result.QandA[2].question}
+👨🏻‍💻 Answer : ${data.result.QandA[2].answer}
 
-*❓ Question :* ${data.result.QandA[3].question}
-*👨🏻‍💻 Answer :* ${data.result.QandA[3].answer}
+❓ Question : ${data.result.QandA[3].question}
+👨🏻‍💻 Answer : ${data.result.QandA[3].answer}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 return await conn.sendMessage(from, { image: { url: data.result.image} , caption: info } , { quoted: mek })
 } catch (e) {
 console.log(e)
@@ -66,7 +66,7 @@ try{
             const res = ress.results;
 
             const txt2 = await conn.sendMessage(from, {image: 
-	    {url: res.COVER},caption: `\n┃◉⇨ 𝚃𝙸𝚃𝙻𝙴 :${res.TITLE}\n\n┃◉⇨ 𝙳𝙰𝚃𝙴 :${res.PUBLISHED}\n\n┃◉⇨ 𝚄𝚁𝙻 :${res.URL}\n\n┃◉ ⇨ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 : ${res.DESCRIPTION}\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*\n\n`},
+	    {url: res.COVER},caption: `\n┃◉⇨ 𝚃𝙸𝚃𝙻𝙴 :${res.TITLE}\n\n┃◉⇨ 𝙳𝙰𝚃𝙴 :${res.PUBLISHED}\n\n┃◉⇨ 𝚄𝚁𝙻 :${res.URL}\n\n┃◉ ⇨ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 : ${res.DESCRIPTION}\n\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ \n\n`},
 			{ quoted: mek });
 await conn.sendMessage(from, { react: { text: `🗞️`, key: mek.key }}) 
 } catch (e) {
@@ -88,11 +88,11 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const data = await fetchJson('https://api.maher-zubair.tech/details/tnews')
-let info = `*📃 Title :* ${data.result.title}
-*⛓️ Link:* ${data.result.link}
-*📚 Description:* ${data.result.desc}
+let info = `📃 Title : ${data.result.title}
+⛓️ Link: ${data.result.link}
+📚 Description: ${data.result.desc}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ 
 `
 return await conn.sendMessage(from, { image: { url: data.result.img} , caption: info } , { quoted: mek })
 } catch (e) {
