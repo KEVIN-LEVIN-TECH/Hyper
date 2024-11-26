@@ -24,7 +24,7 @@ if (!isAdmins) return reply(ADMIN)
         const sendmsg = await conn.sendMessage(mek.chat.G_MUTE)
 await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
-reply('🛑 GROUP IS CLOSED MY BOT OWNER')
+reply('🛑 GROUP IS CLOSED GRUOP ADMING')
 l(e)
 }
 })
@@ -49,7 +49,7 @@ if (!isAdmins) return reply(ADMIN)
         const sendmsg = await conn.sendMessage(mek.chat.G_UNMUTE)
 await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
-reply('🛑 GROUP IS OPEN MY BOT OWNER')
+reply('🛑 GROUP IS OPEN GRUOP ADMIMG')
 l(e)
 }
 })
@@ -71,7 +71,7 @@ if (!isAdmins) return reply(ADMIN)
                                   
          let users = mek.mentionedJid ? mek.mentionedJid : mek.quoted ? mek.quoted.sender : q.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await conn.groupParticipantsUpdate(mek.chat, [users], 'promote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
-	reply('🛑 GROUP ADMIN PROMOTE BY MY BOT OWNER')
+	reply('🛑 GROUP ADMIN PROMOTE BY GRUOP ADMING')
 await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
 reply('*Done ✓✓*')
@@ -96,7 +96,7 @@ if (!isAdmins) return reply(ADMIN)
                                   
          	let users = mek.mentionedJid ? mek.mentionedJid : mek.quoted ? mek.quoted.sender : q.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await conn.groupParticipantsUpdate(mek.chat, [users], 'demote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
-reply('🛑 GROUP ADMIN DEMOTE BY MY BOT OWNER')
+reply('🛑 GROUP ADMIN DEMOTE BY GRUOP ADMING ')
 await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
 reply('*Done ✓✓*')
