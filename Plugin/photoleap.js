@@ -14,7 +14,7 @@ try {
     if (!q) return reply('Please Provide A Name');
     await conn.sendMessage(from, { 
         image: { url: `https://dummyimage.com/600x400/&text=${q}` }, 
-        caption: '> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*' 
+        caption: '> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ' 
     }, {quoted: mek});
 
 } catch (e) {
@@ -37,7 +37,7 @@ try {
     if (!q) return reply('Please Provide A Name');
     await conn.sendMessage(from, { 
         image: { url: `https://www.flamingtext.com/net-fu/proxy_form.cgi?&script=fluffy-logo&text=${q}` }, 
-        caption: '> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*' 
+        caption: '> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ' 
     }, {quoted: mek});
 
 } catch (e) {
