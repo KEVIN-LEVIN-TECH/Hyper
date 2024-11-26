@@ -79,10 +79,10 @@ async (conn, mek, m, {
     try {
         const groupMetadata = await conn.groupMetadata(from); // Get group metadata
         const groupInfo = `
-*Group Name:* ${groupMetadata.subject}
-*Group Description:* ${groupMetadata.desc || 'No description'}
-*Members:* ${groupMetadata.participants.length}
-*Created At:* ${new Date(groupMetadata.creation * 1000).toLocaleString()}
+Group Name: ${groupMetadata.subject}
+Group Description: ${groupMetadata.desc || 'No description'}
+Members: ${groupMetadata.participants.length}
+Created At: ${new Date(groupMetadata.creation * 1000).toLocaleString()}
         `;
         return await conn.sendMessage(from, {
             text: groupInfo
