@@ -15,7 +15,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const fact = response.data.text;
 
         const funFact = `
-🧠 *ʀᴀɴᴅᴏᴍ ꜰᴜɴ ꜰᴀᴄᴛ* 🧠
+🧠 ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ  🧠
 
 ${fact}
 
