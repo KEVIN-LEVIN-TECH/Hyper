@@ -21,22 +21,22 @@ const url = data.url
     
 const ytdl = await fetchJson(`${apilink}/download/ytmp3?url=${data.url}`)
     
-let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
+let message = `‎‎乂 HYPER-MD SONG DOWNLOADER
 
-*⚙️ 𝖳𝗂𝗍𝗅𝖾* : ${data.title}
-*📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇* : ${data.description}
-*🚀 𝖵𝗂𝖾𝗐𝗌* : ${data.views}
-*⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇* : ${data.timestamp}
-*📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇* : ${data.ago}
-*🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅* : ${data.author.name}
-*🖇️ 𝖴𝗋𝗅* : ${data.url}
+⚙️ 𝖳𝗂𝗍𝗅𝖾 : ${data.title}
+📃 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 : ${data.description}
+🚀 𝖵𝗂𝖾𝗐𝗌 : ${data.views}
+⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
+📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
+🎬 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : ${data.author.name}
+🖇️ 𝖴𝗋𝗅 : ${data.url}
 
-*乂 REPLY THE DOWNLOAD OPTION*  
+乂 REPLY THE DOWNLOAD OPTION  
 
-*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾*
-*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾*
+1 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾
+2 ||  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ`;
 
             // Send the song info with context
             const vv = await conn.sendMessage(
@@ -47,12 +47,12 @@ let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                            newsletterName: "HYPER-MD ",
                             newsletterJid: "120363296605464049@newsletter",
                         },
                         externalAdReply: {
-                            title: `SAHAS-MD Song Downloader`,
-                            body: `${data.title} : Powered By SAHAS-MD Song Information Search Engine`,
+                            title: `HYPER-MD Song Downloader`,
+                            body: `${data.title} : Powered By HYPER-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -80,7 +80,7 @@ await conn.sendMessage(from, { audio: { url: ytdl.result.dl_link }, mimetype: "a
                     
 await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg", fileName: data.title + ".mp3", caption: `${data.title}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`}, { quoted: mek })
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ`}, { quoted: mek })
   
                         await conn.sendMessage(from, { react: { text: '✅', key: mek.key } })
                         break;
