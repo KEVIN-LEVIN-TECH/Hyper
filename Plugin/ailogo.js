@@ -2,7 +2,7 @@ const config = require('../config')
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../DATABASE/functions')
 const fetch = require('node-fetch')
-let wm = `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+let wm = `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
 
 async function generate(prompt) {
     try {
@@ -67,11 +67,11 @@ cmd({
 },
 async(conn, mek, m,{from, l, prefix, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*Please Enter A Query* ⌨")
+if(!q) return reply("Please Enter A Query ⌨")
 const json = await generate(q);
 conn.sendMessage(from, { image: { url: json.result.url }, caption: wm }, { quoted: mek })
 } catch (e) {
-reply("*I Can't Create That Logo* 😓")
+reply("I Can't Create That Logo 😓")
 console.log(e)
 }
 })
