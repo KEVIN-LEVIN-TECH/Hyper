@@ -20,11 +20,11 @@ async (conn, mek, m, { from, reply }) => {
         for (let i = 0; i < Math.min(articles.length, 5); i++) {
             const article = articles[i];
             let message = `
-📰 *${article.title}*
+📰 ${article.title}
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ 
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
