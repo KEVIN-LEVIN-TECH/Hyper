@@ -164,7 +164,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
     const groups = await conn.groupFetchAllParticipating();
     const groupJids = Object.keys(groups).join('\n');
-    reply(`📝 *Group JIDs:*\n\n${groupJids}`);
+    reply(`📝 Group JIDs:\n\n${groupJids}`);
 });
 
 
@@ -182,7 +182,7 @@ cmd({
 async(conn, mek, m, {from, mnu, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
  
     try{
-if (!q) return reply(`*• Example:* .ss <URL>`);   
+if (!q) return reply(`• Example: .ss <URL>`);   
 await conn.sendMessage(m.chat, { react: { text: "⏱️",key: m.key,}})
 await conn.sendMessage(from,{image :{ url: `https://image.thum.io/get/fullpage/${q}` },caption: '> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*' },{quoted:mek});
 
