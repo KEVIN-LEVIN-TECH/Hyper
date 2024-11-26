@@ -2,8 +2,8 @@ const config = require('../config')
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../DATABASE/functions')
 const fetch = require('node-fetch')
-var needus = "🚩*Please Give Me GitHub Repo URL!*" 
-var cantf = "🚩 *I Can't Find This Repo!*" 
+var needus = "🚩 Please Give Me GitHub Repo URL!" 
+var cantf = "🚩 I Can't Find This Repo!" 
 cmd({
     pattern: "gitclone",
     alias: ["gitdl"],
@@ -18,14 +18,14 @@ try{
       if (!q) return await  reply(needus)
       let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
       let linknya = q
-      if (!regex1.test(linknya)) return reply("🚩*Please Give Me Valid GitHub Repo Link!*");
+      if (!regex1.test(linknya)) return reply("🚩Please Give Me Valid GitHub Repo Link!");
       let [, user, repo] = q.match(regex1) || []
       repo = repo.replace(/.git$/, '')
       let url = `https://api.github.com/repos/${user}/${repo}/zipball`
       let filename = (await fetch(url, {
          method: 'HEAD'
       })).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
-      let wm = `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+      let wm = `> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ `
       await conn.sendMessage(from, { document: { url: url }, mimetype: 'application/zip', fileName: filename, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cantf)
