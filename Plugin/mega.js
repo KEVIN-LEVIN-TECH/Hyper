@@ -14,7 +14,7 @@ cmd({
 }, 
     async (conn, mek, m, { from, q, reply }) => {
     if (!q) {
-        return await reply('*Please provide a mega.nz URL!*');
+        return await reply('Please provide a mega.nz URL!');
     }
 
     try {
