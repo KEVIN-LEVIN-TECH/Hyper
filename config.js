@@ -48,7 +48,7 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `🚀 *_HYOER-MD Connected Successfully!_* ✅ 
+  START_MSG: process.env.START_MSG || `🚀 *_HYPER-MD Connected Successfully!_* ✅ 
 
 --- *👨‍💻🎉 _Welcome to HYPER-MD!_* 🎉💗 
 
@@ -70,8 +70,8 @@ _*👨‍💻 Enjoy your time with us! 😊*_
 
 > ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ ` ,
 
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/de82e3.jpg",
-  MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/de82e3.jpg",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg",
+  MENU_IMG: process.env.MENU_IMG || "https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
     MENU_MS: process.env.MENU_MS || `menu 2`,
 
