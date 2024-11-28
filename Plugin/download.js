@@ -816,7 +816,7 @@ cmd({
 
         // Check if file size is available and handle accordingly
         const fileSize = fileInfo.fileSize || 0; // Default to 0 if fileSize is not present
-        const MAX_DOWNLOAD_SIZE = 500  1024  1024; // 500 MB
+        const MAX_DOWNLOAD_SIZE = 500 * 700 * 1024; // 500 MB
 
         if (fileSize > MAX_DOWNLOAD_SIZE) {
             await conn.sendMessage(from, { text: `⚠️ The file size is too large. Maximum allowed size is 500 MB. The provided file is ${formatFileSize(fileSize)}.` }, { quoted: mek });
