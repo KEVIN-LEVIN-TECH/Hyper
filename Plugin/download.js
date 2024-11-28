@@ -756,7 +756,7 @@ function formatFileSize(bytes) {
 }
 
 // Google Drive Downloader with size limit (e.g., 100MB limit)
-const MAX_DOWNLOAD_SIZE = 500  1024  1024; // 100 MB
+const MAX_DOWNLOAD_SIZE = 500 * 1024 * 1024; // 100 MB
 
 cmd({
     pattern: "gdrive",
