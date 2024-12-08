@@ -66,7 +66,7 @@ cmd({
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -149,7 +149,7 @@ cmd({
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -328,7 +328,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           externalAdReply: {
               title: `HYPER-MD All Menu List`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -403,7 +403,7 @@ cmd({
           externalAdReply: {
               title: `HYPER-MD Owner Information`,
               body: `https://HYPER-tech-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -477,7 +477,7 @@ Whatsapp Channel Link:
           externalAdReply: {
               title: `HYPER-MD Support Channels`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -557,7 +557,7 @@ cmd({
           externalAdReply: {
               title: `HYPER-MD Repo Informations`,
               body: ``,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -635,7 +635,7 @@ THANK FOR USING HYPER-MD`
           externalAdReply: {
               title: `HYPER-MD About`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -708,7 +708,7 @@ cmd({
           externalAdReply: {
               title: `HYPER-MD System Information`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -805,7 +805,7 @@ _🌟 Reply with the Number you want to select_
           externalAdReply: {
               title: `HYPER-MD Menu List`,
               body: `https://HYPER-md-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/uzu4feg.jpg`,
+              thumbnailUrl: `https://telegra.ph/file/3c64b5608dd82d33dabe8.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
