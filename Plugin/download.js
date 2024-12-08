@@ -548,7 +548,7 @@ cmd(
                                     externalAdReply: {
                                           title: `HYPER-MD FB Downloader`,
                                           body: `Undifended : Powerd By HYPER-MD FB Information Search Engine`,
-                                          thumbnailUrl: `https://pomf2.lain.la/f/9ggi67rj.jpg`,
+                                          thumbnailUrl: data.thumbnail,
                                           sourceUrl:  ``,
                                           mediaType: 1,
                                           renderLargerThumbnail: true
@@ -675,7 +675,7 @@ cmd({
                         externalAdReply: {
                               title: `HYPER-MD Tik Tok Downloader`,
                               body: `Undifended : Powerd By HYPER-MD Tiktok Information Search Engine`,
-                              thumbnailUrl: `https://pomf2.lain.la/f/eo16q3mu.png`,
+                              thumbnailUrl: data.thumbnail,
                               sourceUrl:  ``,
                               mediaType: 1,
                               renderLargerThumbnail: true
@@ -793,7 +793,7 @@ cmd({
                                                               externalAdReply: {
                                                                   title: `HYPER-MD Gdrive Downloader`,
                                                                   body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By HYPER-MD Gdrive Information Search Engine`,
-                                                                  thumbnailUrl: `https://pomf2.lain.la/f/41i00kdh.png`,
+                                                                  thumbnailUrl: data.thumbnail,
                                                                   sourceUrl: ``,
                                                                   mediaType: 1,
                                                                   renderLargerThumbnail: true, 
@@ -905,7 +905,7 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
                     },
                     externalAdReply: {
                         title: `HYPER-MD Application Downloader`,
-                        body: `${apkName} : Powerd By HYPER-MD Apk Information Search Engine`,
+                        body: `${apkName} : ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜱᴇɴᴇꜱʜ  Apk Information Search Engine`,
                         thumbnailUrl: apkData.icon,
                         sourceUrl: ``,
                         mediaType: 1,
